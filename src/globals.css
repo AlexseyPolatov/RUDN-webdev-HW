@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Roboto, system-ui, -apple-system, 'Segoe UI';
+  background: var(--bg);
+  color: var(--text);
+}

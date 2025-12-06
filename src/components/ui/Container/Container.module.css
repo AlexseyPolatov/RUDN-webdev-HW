@@ -1,0 +1,27 @@
+.container {
+  width: 1920px;
+  height: 554px;
+  display: flex;
+  flex-direction: row;
+  /* background: var(--bg); */
+  overflow: hidden;
+  /* border: 1px solid var(--border); */
+  background-repeat: no-repeat;
+
+}
+
+.half {
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  border-right: 1px solid var(--border);
+  
+  background-repeat: no-repeat;
+}
+
+.half:last-child {
+  border-right: none;
+}

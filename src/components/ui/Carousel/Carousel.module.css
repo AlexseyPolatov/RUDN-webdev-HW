@@ -1,0 +1,31 @@
+.wrapper {
+  position: relative;
+  width: 1920px;
+  height: 1505px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-color: #081130;
+}
+.title {
+  padding-bottom: 80px;
+  color: #FFF;
+}
+
+.track {
+  position: relative;
+  width: 100%;
+  height: 615px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.buttonBox {
+  width: 150px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}

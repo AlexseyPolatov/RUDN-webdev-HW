@@ -1,0 +1,40 @@
+.wrapper {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  padding: 30px 50px;
+  background: #FED84C;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #FFE279;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+
+
+.buttonText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #2E363E;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 27.36px;
+  word-wrap: break-word;
+}
+

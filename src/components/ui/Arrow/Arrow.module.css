@@ -1,0 +1,32 @@
+.arrow {
+  width: 66px;
+  height: 66px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 38px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  color: #000;
+  opacity: 0.8;
+  transition: 0.25s ease;
+  background: #FED84C;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow:hover {
+  opacity: 1;
+  background: #ffe279;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
